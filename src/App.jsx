@@ -500,10 +500,6 @@ function Header({ activeSection, goToSection, isMenuOpen, isScrolled, setIsMenuO
               {item.label}
             </button>
           ))}
-          <ExternalLink href={WHATSAPP} className="btn-whatsapp mt-2 md:ml-2 md:mt-0">
-            <WhatsappIcon className="h-4 w-4" />
-            Hubungi via WhatsApp
-          </ExternalLink>
         </nav>
 
         <button
@@ -565,10 +561,6 @@ function Hero({ particles, goToSection }) {
           <button className="btn btn-primary w-full sm:w-auto" onClick={() => goToSection('produk')}>
             Lihat Produk Kami
           </button>
-          <ExternalLink href={WHATSAPP} className="btn btn-wa w-full sm:w-auto">
-            <WhatsappIcon className="h-5 w-5" />
-            Hubungi via WhatsApp
-          </ExternalLink>
         </div>
 
         <div className="mt-10 grid w-full max-w-xl grid-cols-2 overflow-hidden rounded-2xl border border-white/10 bg-white/10 backdrop-blur-xl sm:mt-14 md:flex md:w-fit md:max-w-3xl md:items-stretch" data-reveal="fade-up">
