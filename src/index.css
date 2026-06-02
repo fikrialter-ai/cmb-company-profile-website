@@ -169,7 +169,7 @@
   }
 
   .footer-link {
-    @apply mb-2 text-sm text-white/60 transition hover:text-gold-light;
+    @apply mb-2 block max-w-full text-sm leading-6 text-white/60 transition hover:text-gold-light;
   }
 }
 

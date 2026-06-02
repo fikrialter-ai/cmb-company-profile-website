@@ -1103,11 +1103,7 @@ function Footer({ goToSection }) {
             <h5 className="footer-title">Kontak</h5>
             <ExternalLink href="https://wa.me/6281333399362" className="footer-link">WA: 0813-3339-9362</ExternalLink>
             <a href="tel:+62319900149" className="footer-link">Telp: (+62-31) 9900-1409</a>
-            <a href="mailto:ptcahayamandiri_bajamas89@yahoo.com" className="footer-link break-all">ptcahayamandiri_bajamas89@yahoo.com</a>
-            <ExternalLink href="https://wa.me/6281333399362" className="btn-whatsapp mt-3">
-              <WhatsappIcon className="h-4 w-4" />
-              Chat WhatsApp
-            </ExternalLink>
+            <a href="mailto:ptcahayamandiri_bajamas89@yahoo.com" className="footer-link break-words">ptcahayamandiri_bajamas89@yahoo.com</a>
           </div>
         </div>
       </div>
