@@ -13,6 +13,7 @@ import produkInfrastruktur from './assets/produk-infrastruktur.webp';
 import produkPipaBaja from './assets/produk-pipa-baja.webp';
 import produkPlatSpesialis from './assets/produk-plat-spesialis.webp';
 import produkWiremesh from './assets/produk-wiremesh.webp';
+import warehouseCmb from './assets/warehouse-cmb.jpeg';
 
 const WHATSAPP =
   'https://wa.me/6281333399362?text=Halo%20PT.%20Cahaya%20Mandiri%20Bajamas,%20saya%20ingin%20menanyakan%20informasi%20produk.';
@@ -967,7 +968,7 @@ function Logistics() {
 
         <div className="mt-10 grid gap-5 sm:mt-14 sm:gap-6 md:grid-cols-2" data-reveal="fade-up">
           <LogisticPhoto image={heroBg} alt="Armada Truk PT. Cahaya Mandiri Bajamas" caption="Armada Operasional PT. CMB" />
-          <LogisticPhoto image={platHitam} alt="Gudang Romokalisari PT. Cahaya Mandiri Bajamas" caption="Gudang Romokalisari, Surabaya" />
+          <LogisticPhoto image={warehouseCmb} alt="Gudang Romokalisari PT. Cahaya Mandiri Bajamas" caption="Gudang Romokalisari, Surabaya" />
         </div>
       </div>
     </section>
