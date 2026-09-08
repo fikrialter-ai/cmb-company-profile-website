@@ -1263,11 +1263,11 @@ function LogoMark() {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M82.3 7.5H109.7C114.2 7.5 117.8 11.1 117.8 15.6V53.5H104.1V22.3H98.7V39.8C98.7 44.1 95.2 47.6 90.9 47.6C86.6 47.6 83.1 44.1 83.1 39.8V22.3H77.7V53.5H64V15.6C64 11.1 67.6 7.5 72.1 7.5H82.3Z"
-        fill="url(#cmbCenter)"
+        fill="url(#cmbSide)"
       />
-      <path d="M77.7 22.3H64V53.5H77.7V22.3Z" fill="#FFFFFF" fillOpacity=".9" />
-      <path d="M117.8 22.3H104.1V53.5H117.8V22.3Z" fill="#FFFFFF" fillOpacity=".9" />
-      <path d="M82.3 7.5H109.7C114.2 7.5 117.8 11.1 117.8 15.6V22.3H64V15.6C64 11.1 67.6 7.5 72.1 7.5H82.3Z" fill="url(#cmbCenter)" />
+      <path d="M77.7 22.3H64V53.5H77.7V22.3Z" fill="url(#cmbSide)" />
+      <path d="M117.8 22.3H104.1V53.5H117.8V22.3Z" fill="url(#cmbSide)" />
+      <path d="M82.3 7.5H109.7C114.2 7.5 117.8 11.1 117.8 15.6V22.3H64V15.6C64 11.1 67.6 7.5 72.1 7.5H82.3Z" fill="url(#cmbSide)" />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
