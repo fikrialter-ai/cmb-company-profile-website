@@ -542,8 +542,7 @@ function Hero({ particles, goToSection }) {
 
       <div className="page-container relative z-10 w-full max-w-[948px] pb-12 pt-28 sm:pb-16 sm:pt-32 md:py-36">
         <div className="hero-badge" data-reveal="fade-down">
-          <span className="h-2 w-2 animate-dot-pulse rounded-full bg-whatsapp" />
-          Stockist Baja Terpercaya Sejak 1986
+          PT. CMB / Surabaya / Sejak 1986
         </div>
         <h1 className="mt-5 max-w-[12ch] font-display text-[2.35rem] font-black leading-[1.03] text-white min-[390px]:text-[2.7rem] sm:mt-6 sm:max-w-none sm:text-6xl lg:text-7xl" data-reveal="fade-up">
           Penyedia Besi & Plat Baja
