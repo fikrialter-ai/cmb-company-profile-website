@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cmb-company-profile-website.vercel.app/sitemap.xml
