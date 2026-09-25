@@ -49,7 +49,7 @@ export function Header({ catalogActive }) {
           {navItems.map(({ id, label }) => (
             <a key={id} href={`#${id}`} aria-current={active === id ? 'location' : undefined} onClick={() => setOpen(false)} className={`border-b-2 px-1 py-3 text-sm font-semibold transition-colors lg:py-[27px] ${active === id ? 'border-brand text-brand' : 'border-transparent text-muted hover:text-brand'}`}>{label}</a>
           ))}
-          <ExternalLink href={WHATSAPP} className="btn btn-primary mt-4 lg:ml-2 lg:mt-0">Minta Penawaran <ArrowUpRight size={17} aria-hidden="true" /></ExternalLink>
+          <a href="#permintaan" onClick={() => setOpen(false)} className="btn btn-primary mt-4 lg:ml-2 lg:mt-0">Minta Penawaran <ArrowUpRight size={17} aria-hidden="true" /></a>
         </nav>
         <button ref={menuButton} type="button" aria-label={open ? 'Tutup menu' : 'Buka menu'} aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen(!open)} className="flex h-11 w-11 shrink-0 items-center justify-center rounded border border-line text-ink lg:hidden">{open ? <X size={22} /> : <Menu size={22} />}</button>
       </div>

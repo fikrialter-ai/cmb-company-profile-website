@@ -2,9 +2,6 @@
 @import '@fontsource/manrope/latin-500.css';
 @import '@fontsource/manrope/latin-600.css';
 @import '@fontsource/manrope/latin-700.css';
-@import '@fontsource/barlow-condensed/latin-500.css';
-@import '@fontsource/barlow-condensed/latin-600.css';
-@import '@fontsource/barlow-condensed/latin-700.css';
 
 @tailwind base;
 @tailwind components;
@@ -23,11 +20,12 @@
 @layer components {
   .page-container { @apply mx-auto w-full max-w-[1280px] px-5 sm:px-8 lg:px-10; }
   .section-band { @apply py-16 sm:py-20 lg:py-24; }
-  .section-title { @apply font-display text-4xl font-semibold leading-[1.1] text-ink sm:text-5xl; }
+  .section-title { @apply text-[30px] font-bold leading-[1.2] text-ink sm:text-[38px] lg:text-[42px]; }
   .btn { @apply inline-flex min-h-12 items-center justify-center gap-2.5 rounded px-5 py-3 text-sm font-bold leading-6 transition-colors active:translate-y-px; }
   .btn-primary { @apply bg-accent text-white hover:bg-accent-dark; }
   .btn-secondary { @apply border border-line bg-white text-brand hover:border-brand hover:bg-brand-pale; }
   .contact-link { @apply flex w-fit items-center gap-2 text-brand hover:underline; }
+  .form-field { @apply block min-h-12 w-full rounded border border-[#CBD1D9] bg-white px-3.5 py-3 text-sm leading-6 text-ink placeholder:text-muted focus:border-brand focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-brand; }
 }
 
 @media (prefers-reduced-motion: reduce) {

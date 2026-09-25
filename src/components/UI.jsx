@@ -22,7 +22,7 @@ export function ProductCard({ item, href, count }) {
         <picture className="block h-full"><source media="(max-width: 639px)" srcSet={getThumbnail(item.image)} /><img src={item.image} alt={item.name ?? item.title} loading="lazy" decoding="async" width="640" height="400" className="h-full w-full object-cover transition-transform duration-300 motion-safe:group-hover:scale-[1.03]" /></picture>
       </div>
       <div className="flex min-w-0 flex-1 flex-col p-4 sm:p-6">
-        <h2 className="font-display text-xl font-semibold leading-tight text-ink sm:text-2xl">{item.name ?? item.title}</h2>
+        <h2 className="text-base font-bold leading-snug text-ink sm:text-xl">{item.name ?? item.title}</h2>
         <p className="mt-3 hidden flex-1 text-sm leading-6 text-muted sm:block">{item.desc}</p>
         <div className="mt-4 flex items-center justify-between gap-3 border-t border-line pt-3 text-xs sm:mt-6 sm:pt-4 sm:text-sm">
           <span className="text-muted">{count == null ? item.en : `${count} produk`}</span>

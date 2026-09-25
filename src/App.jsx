@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Header, Footer, FloatingContact } from './components/Layout.jsx';
 import { Home } from './components/Home.jsx';
 import { CatalogPage } from './components/Catalog.jsx';
-import { Contact, ContactBanner } from './components/Contact.jsx';
+import { Contact } from './components/Contact.jsx';
 import { products, productGroups, catalogGroups } from './data/catalog.js';
 
 const homeTitle = 'PT. Cahaya Mandiri Bajamas | Stockist Baja & Besi Terpercaya Sejak 1986';
@@ -51,7 +51,6 @@ export default function App() {
       <Header catalogActive={Boolean(route)} />
       <main id="main-content" tabIndex={-1} className="outline-none">
         {route ? <CatalogPage route={route} /> : <Home />}
-        <ContactBanner />
         <Contact />
       </main>
       <Footer />

@@ -25,7 +25,7 @@ export function CatalogPage({ route }) {
           <>
             <div className="grid gap-9 lg:grid-cols-2 lg:items-start lg:gap-16">
               <img src={item.image} alt={item.alt} width="800" height="640" fetchPriority="high" className="aspect-[5/4] w-full rounded-lg bg-surface object-cover" />
-              <div><p className="text-sm font-semibold text-brand">{item.en}</p><h1 className="mt-3 font-display text-4xl font-semibold leading-tight text-ink sm:text-5xl">{item.name}</h1><p className="mt-5 leading-7 text-muted">{item.desc}</p>
+              <div><p className="text-sm font-semibold text-brand">{item.en}</p><h1 className="mt-3 text-3xl font-bold leading-tight text-ink sm:text-[40px]">{item.name}</h1><p className="mt-5 leading-7 text-muted">{item.desc}</p>
                 <div className="mt-7 border-y border-line py-6"><h2 className="text-sm font-bold">Aplikasi umum</h2><ul className="mt-4 space-y-3">{item.uses.map((use) => <li key={use} className="flex gap-3 text-sm leading-6 text-muted"><Check size={18} className="mt-0.5 shrink-0 text-brand" aria-hidden="true" /><span>{use}</span></li>)}</ul></div>
                 <p className="mt-5 text-xs leading-6 text-muted">Ketersediaan, grade, ukuran, dan harga dikonfirmasi sesuai kebutuhan. Kirim spesifikasi serta jumlah untuk penawaran.</p>
                 <ExternalLink href={productInquiry} className="btn btn-primary mt-6 w-full sm:w-auto"><MessageCircle size={18} aria-hidden="true" />Tanya Ketersediaan<ArrowUpRight size={17} aria-hidden="true" /></ExternalLink>
@@ -35,7 +35,7 @@ export function CatalogPage({ route }) {
           </>
         ) : (
           <>
-            <div className="mb-10 max-w-3xl"><p className="text-sm font-semibold text-brand">{type === 'kategori' ? 'Kategori produk' : category.title}</p><h1 className="mt-3 font-display text-4xl font-semibold leading-tight text-ink sm:text-5xl">{item.title}</h1><p className="mt-4 leading-7 text-muted">{item.desc}</p><p className="mt-5 text-sm text-muted">{type === 'kategori' ? `${items.length} kelompok produk` : `${items.length} produk`}</p></div>
+            <div className="mb-10 max-w-3xl"><p className="text-sm font-semibold text-brand">{type === 'kategori' ? 'Kategori produk' : category.title}</p><h1 className="mt-3 text-3xl font-bold leading-tight text-ink sm:text-[40px]">{item.title}</h1><p className="mt-4 leading-7 text-muted">{item.desc}</p><p className="mt-5 text-sm text-muted">{type === 'kategori' ? `${items.length} kelompok produk` : `${items.length} produk`}</p></div>
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{items.map((entry) => <ProductCard key={entry.id ?? entry.slug} item={entry} href={`#/${type === 'kategori' ? 'produk-group' : 'produk'}/${entry.id ?? entry.slug}`} count={type === 'kategori' ? entry.productNames.length : undefined} />)}</div>
           </>
         )}

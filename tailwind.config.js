@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         sans: ['Manrope', 'Arial', 'sans-serif'],
-        display: ['Barlow Condensed', 'Arial Narrow', 'sans-serif']
+        display: ['Manrope', 'Arial', 'sans-serif']
       }
     }
   },
