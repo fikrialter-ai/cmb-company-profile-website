@@ -1,36 +1,69 @@
 import platHitam from '../assets/optimized/plat_hitam.webp';
 import platKapal from '../assets/optimized/plat_kapal.webp';
 import platBordes from '../assets/optimized/plat_bordes.webp';
-import platStrip from '../assets/optimized/plat_strip.webp';
 import besiSiku from '../assets/optimized/besi_siku.webp';
-import hbeamWf from '../assets/optimized/hbeam_wf.webp';
-import besiKonstruksi from '../assets/optimized/besi_konstruksi.webp';
-import produkAtapGalvalum from '../assets/optimized/produk-atap-galvalum.webp';
-import produkBesiBetonBatangan from '../assets/optimized/produk-besi-beton-batangan.webp';
-import produkInfrastruktur from '../assets/optimized/produk-infrastruktur.webp';
-import produkPipaBaja from '../assets/optimized/produk-pipa-baja.webp';
 import produkPlatSpesialis from '../assets/optimized/produk-plat-spesialis.webp';
-import produkWiremesh from '../assets/optimized/produk-wiremesh.webp';
+import sheetpile from '../assets/optimized/sheetpile.webp';
+import guardrail from '../assets/optimized/guardrail.webp';
+import wfBeam from '../assets/optimized/wf-beam.webp';
+import kanalUnpCnp from '../assets/optimized/kanal-unp-cnp.webp';
+import bendrat from '../assets/optimized/bendrat.webp';
+import platStrip from '../assets/optimized/plat-strip.webp';
+import pipaKotak from '../assets/optimized/pipa-kotak.webp';
+import atapGelombang from '../assets/optimized/atap-gelombang.webp';
+import spandek from '../assets/optimized/spandek.webp';
+import platStainless from '../assets/optimized/plat-stainless.webp';
+import platColdRolled from '../assets/optimized/plat-cold-rolled.webp';
+import platGalvanis from '../assets/optimized/plat-galvanis.webp';
+import squareBars from '../assets/optimized/square-bars.webp';
+import toolSteel from '../assets/optimized/tool-steel.webp';
+import roundBars from '../assets/optimized/round-bars.webp';
+import pipaHitam from '../assets/optimized/pipa-hitam.webp';
+import pipaGalvanis from '../assets/optimized/pipa-galvanis.webp';
+import besiBeton from '../assets/optimized/besi-beton.webp';
+import rangkaAtap from '../assets/optimized/rangka-atap.webp';
+import wiremeshLembaran from '../assets/optimized/wiremesh-lembaran.webp';
+import wiremeshRoll from '../assets/optimized/wiremesh-roll.webp';
 import platHitamThumb from '../assets/optimized/plat_hitam-320.webp';
 import platKapalThumb from '../assets/optimized/plat_kapal-320.webp';
 import platBordesThumb from '../assets/optimized/plat_bordes-320.webp';
-import platStripThumb from '../assets/optimized/plat_strip-320.webp';
 import besiSikuThumb from '../assets/optimized/besi_siku-320.webp';
-import hbeamWfThumb from '../assets/optimized/hbeam_wf-320.webp';
-import besiKonstruksiThumb from '../assets/optimized/besi_konstruksi-320.webp';
-import atapThumb from '../assets/optimized/produk-atap-galvalum-320.webp';
-import betonThumb from '../assets/optimized/produk-besi-beton-batangan-320.webp';
-import infrastrukturThumb from '../assets/optimized/produk-infrastruktur-320.webp';
-import pipaThumb from '../assets/optimized/produk-pipa-baja-320.webp';
 import spesialisThumb from '../assets/optimized/produk-plat-spesialis-320.webp';
-import wiremeshThumb from '../assets/optimized/produk-wiremesh-320.webp';
+import sheetpileThumb from '../assets/optimized/sheetpile-320.webp';
+import guardrailThumb from '../assets/optimized/guardrail-320.webp';
+import wfBeamThumb from '../assets/optimized/wf-beam-320.webp';
+import kanalUnpCnpThumb from '../assets/optimized/kanal-unp-cnp-320.webp';
+import bendratThumb from '../assets/optimized/bendrat-320.webp';
+import platStripThumb from '../assets/optimized/plat-strip-320.webp';
+import pipaKotakThumb from '../assets/optimized/pipa-kotak-320.webp';
+import atapGelombangThumb from '../assets/optimized/atap-gelombang-320.webp';
+import spandekThumb from '../assets/optimized/spandek-320.webp';
+import platStainlessThumb from '../assets/optimized/plat-stainless-320.webp';
+import platColdRolledThumb from '../assets/optimized/plat-cold-rolled-320.webp';
+import platGalvanisThumb from '../assets/optimized/plat-galvanis-320.webp';
+import squareBarsThumb from '../assets/optimized/square-bars-320.webp';
+import toolSteelThumb from '../assets/optimized/tool-steel-320.webp';
+import roundBarsThumb from '../assets/optimized/round-bars-320.webp';
+import pipaHitamThumb from '../assets/optimized/pipa-hitam-320.webp';
+import pipaGalvanisThumb from '../assets/optimized/pipa-galvanis-320.webp';
+import besiBetonThumb from '../assets/optimized/besi-beton-320.webp';
+import rangkaAtapThumb from '../assets/optimized/rangka-atap-320.webp';
+import wiremeshLembaranThumb from '../assets/optimized/wiremesh-lembaran-320.webp';
+import wiremeshRollThumb from '../assets/optimized/wiremesh-roll-320.webp';
 
 const thumbnails = new Map([
   [platHitam, platHitamThumb], [platKapal, platKapalThumb], [platBordes, platBordesThumb],
-  [platStrip, platStripThumb], [besiSiku, besiSikuThumb], [hbeamWf, hbeamWfThumb],
-  [besiKonstruksi, besiKonstruksiThumb], [produkAtapGalvalum, atapThumb],
-  [produkBesiBetonBatangan, betonThumb], [produkInfrastruktur, infrastrukturThumb],
-  [produkPipaBaja, pipaThumb], [produkPlatSpesialis, spesialisThumb], [produkWiremesh, wiremeshThumb]
+  [platStrip, platStripThumb], [besiSiku, besiSikuThumb], [wfBeam, wfBeamThumb],
+  [kanalUnpCnp, kanalUnpCnpThumb], [produkPlatSpesialis, spesialisThumb],
+  [sheetpile, sheetpileThumb], [guardrail, guardrailThumb], [bendrat, bendratThumb],
+  [pipaKotak, pipaKotakThumb], [atapGelombang, atapGelombangThumb],
+  [spandek, spandekThumb], [platStainless, platStainlessThumb],
+  [platColdRolled, platColdRolledThumb], [platGalvanis, platGalvanisThumb],
+  [squareBars, squareBarsThumb], [toolSteel, toolSteelThumb],
+  [roundBars, roundBarsThumb], [pipaHitam, pipaHitamThumb],
+  [pipaGalvanis, pipaGalvanisThumb], [besiBeton, besiBetonThumb],
+  [rangkaAtap, rangkaAtapThumb], [wiremeshLembaran, wiremeshLembaranThumb],
+  [wiremeshRoll, wiremeshRollThumb]
 ]);
 
 export function getThumbnail(image) {
@@ -66,34 +99,34 @@ const navItems = [
 const products = [
   product('Plat Hitam', 'Hot Rolled Plate & Sheet', 'Plat baja umum untuk fabrikasi standar, struktur, manufaktur, dan kebutuhan proyek konstruksi.', platHitam, 'Hot Rolled', 'plat'),
   product('Plat Kapal BKI', 'Ship Building Plate', 'Plat spesifikasi kapal untuk galangan, tangki besar, dan aplikasi industri dengan kebutuhan material lebih ketat.', platKapal, 'Marine Grade', 'plat', { special: true }),
-  product('Plat Besi Putih', 'Cold Rolled Plate & Sheet', 'Plat cold rolled dengan permukaan lebih halus untuk panel, komponen presisi, dan finishing industri.', produkPlatSpesialis, 'Cold Rolled', 'plat'),
+  product('Plat Besi Putih', 'Cold Rolled Plate & Sheet', 'Plat cold rolled dengan permukaan lebih halus untuk panel, komponen presisi, dan finishing industri.', platColdRolled, 'Cold Rolled', 'plat'),
   product('Plat Bordes', 'Checkered Plate', 'Plat berpola anti-slip untuk lantai transportasi berat, tangga industri, platform, dan fasilitas umum.', platBordes, 'Anti-Slip', 'plat'),
   product('Plat Strip', 'Flat Bars', 'Material baja pipih panjang untuk komponen struktural, karoseri, bracket, dan kebutuhan fabrikasi.', platStrip, 'Flat Bar', 'plat'),
-  product('Plat Galvanil', 'Galvaneal', 'Plat berlapis galvanil untuk panel, fabrikasi, dan komponen yang membutuhkan permukaan siap finishing.', produkPlatSpesialis, 'Galvaneal', 'plat'),
-  product('Plat Galvanis', 'Galvanized Plate', 'Plat berlapis zinc untuk konstruksi, utilitas, panel, dan area yang membutuhkan perlindungan korosi.', produkPlatSpesialis, 'Galvanized', 'plat'),
-  product('Plat Stainless 4 x 8', 'Stainless Steel Sheets', 'Lembaran stainless untuk dapur industri, tangki, interior, dan fabrikasi anti karat.', produkPlatSpesialis, 'Stainless', 'plat'),
+  product('Plat Galvanil', 'Galvaneal', 'Plat berlapis galvanil untuk panel, fabrikasi, dan komponen yang membutuhkan permukaan siap finishing.', platColdRolled, 'Galvaneal', 'plat'),
+  product('Plat Galvanis', 'Galvanized Plate', 'Plat berlapis zinc untuk konstruksi, utilitas, panel, dan area yang membutuhkan perlindungan korosi.', platGalvanis, 'Galvanized', 'plat'),
+  product('Plat Stainless 4 x 8', 'Stainless Steel Sheets', 'Lembaran stainless untuk dapur industri, tangki, interior, dan fabrikasi anti karat.', platStainless, 'Stainless', 'plat'),
   product('Besi Plat Coil', 'Steel Plate Coil', 'Material coil baja untuk produksi berkelanjutan, pemotongan, dan pembentukan lembaran sesuai spesifikasi.', produkPlatSpesialis, 'Coil', 'plat'),
-  product('WF / Wide Flange', 'Wide Flange Steel Beams', 'Profil WF untuk balok, kolom, struktur bangunan, pabrik, gudang, dan fabrikasi berat.', hbeamWf, 'WF Beam', 'profil', { special: true, wide: true }),
-  product('H-Beam, I-Beam / INP', 'Structural Steel Beams', 'Material baja struktural berkapasitas beban tinggi untuk kolom, balok, jembatan, dan konstruksi baja.', hbeamWf, 'Beam', 'profil', { special: true }),
-  product('Kanal UNP & CNP', 'Steel Channels', 'Kanal baja untuk rangka, dudukan mesin, struktur ringan-menengah, dan kebutuhan fabrikasi industri.', besiKonstruksi, 'Channel', 'profil'),
+  product('WF / Wide Flange', 'Wide Flange Steel Beams', 'Profil WF untuk balok, kolom, struktur bangunan, pabrik, gudang, dan fabrikasi berat.', wfBeam, 'WF Beam', 'profil', { special: true, wide: true }),
+  product('H-Beam, I-Beam / INP', 'Structural Steel Beams', 'Material baja struktural berkapasitas beban tinggi untuk kolom, balok, jembatan, dan konstruksi baja.', wfBeam, 'Beam', 'profil', { special: true }),
+  product('Kanal UNP & CNP', 'Steel Channels', 'Kanal baja untuk rangka, dudukan mesin, struktur ringan-menengah, dan kebutuhan fabrikasi industri.', kanalUnpCnp, 'Channel', 'profil'),
   product('Besi Siku', 'Angle Bars', 'Profil baja siku untuk struktur pendukung, rangka, dan pekerjaan besi umum di konstruksi dan industri.', besiSiku, 'Angle Bar', 'profil'),
-  product('Pipa Baja Hitam', 'Black Steel Pipe', 'Pipa baja hitam untuk konstruksi, struktur, jalur utilitas, railing, tiang, dan kebutuhan proyek industri.', produkPipaBaja, 'Black Pipe', 'pipa'),
-  product('Pipa Galvanis / Pipa Air', 'Galvanized Water Pipe', 'Pipa galvanis berlapis zinc untuk kebutuhan air, utilitas, pagar, dan aplikasi dengan perlindungan korosi.', produkPipaBaja, 'Galvanis', 'pipa'),
-  product('Pipa Seamless', 'ASTM A53 / A106 / API 5L', 'Pipa seamless untuk kebutuhan tekanan, utilitas industri, distribusi, dan aplikasi teknis sesuai standar proyek.', produkPipaBaja, 'Seamless', 'pipa'),
-  product('Pipa Pancang ERW', 'ASTM A252', 'Pipa pancang ERW untuk pondasi, tiang, dan kebutuhan infrastruktur dengan spesifikasi proyek.', produkPipaBaja, 'Pancang', 'pipa'),
-  product('Pipa Kotak', 'Rectangular & Square Pipes', 'Pipa kotak dan rectangular untuk rangka, konstruksi ringan, kanopi, pagar, dan fabrikasi umum.', produkPipaBaja, 'Box Pipe', 'pipa'),
-  product('Besi Beton Polos & Ulir', 'Plain & Deformed Bars', 'Besi beton untuk tulangan struktur beton pada proyek bangunan, jalan, gudang, dan infrastruktur.', produkBesiBetonBatangan, 'Rebar', 'beton'),
-  product('Besi AS / Round Bars', 'ST41, ST60, ST70, ST90', 'Besi as untuk machining, komponen teknik, shaft, dan kebutuhan fabrikasi presisi.', produkBesiBetonBatangan, 'Round Bar', 'beton'),
-  product('Square Bars / Vierkan', 'Square Steel Bars', 'Batang baja kotak untuk komponen teknik, rangka, pekerjaan bubut, dan fabrikasi umum.', produkBesiBetonBatangan, 'Vierkan', 'beton'),
-  product('Silver Steel / Tool Steel', 'Hollow Bars & Tool Steel', 'Material baja teknik untuk tool, komponen mesin, hollow bars, dan pekerjaan industri presisi.', produkBesiBetonBatangan, 'Tool Steel', 'beton'),
-  product('Besi Wiremesh', 'Steel Wiremesh Sheets', 'Wiremesh lembaran untuk penguatan lantai beton, dak, jalan, gudang, dan pekerjaan pengecoran.', produkWiremesh, 'Wiremesh', 'wiremesh'),
-  product('Heavy Welded Wire Mesh Roll', 'Wire Mesh Roll', 'Wiremesh roll untuk penguatan, pagar, pembatas area, dan kebutuhan pendukung proyek konstruksi.', produkWiremesh, 'Mesh Roll', 'wiremesh'),
-  product('Bendrat', 'Tie Wire', 'Kawat bendrat untuk pengikat tulangan, pekerjaan beton, dan kebutuhan aksesoris lapangan.', produkWiremesh, 'Tie Wire', 'wiremesh'),
-  product('Rangka Atap Baja Ringan', 'Galvalume Light Steel Frame', 'Rangka atap baja ringan galvalum untuk bangunan komersial, gudang, rumah tinggal, dan renovasi.', produkAtapGalvalum, 'Baja Ringan', 'atap'),
-  product('Atap Gelombang Galvalum', 'Corrugated Galvalume Roofing', 'Atap gelombang galvalum untuk penutup atap gudang, pabrik, dan bangunan komersial.', produkAtapGalvalum, 'Roofing', 'atap'),
-  product('Spandek Galvalum', 'Galvalume Spandek Panels', 'Spandek galvalum untuk atap dan dinding bangunan dengan bobot ringan dan pemasangan efisien.', produkAtapGalvalum, 'Spandek', 'atap'),
-  product('Besi Sheetpile', 'Type II, III, IV', 'Sheetpile baja untuk penahan tanah, proyek dermaga, sungai, basement, dan pekerjaan infrastruktur berat.', produkInfrastruktur, 'Sheetpile', 'infrastruktur', { special: true }),
-  product('Guardrail', 'Type A & B', 'Guardrail untuk pengaman jalan, proyek transportasi, pelindung tepi, dan kebutuhan keselamatan infrastruktur.', produkInfrastruktur, 'Guardrail', 'infrastruktur')
+  product('Pipa Baja Hitam', 'Black Steel Pipe', 'Pipa baja hitam untuk konstruksi, struktur, jalur utilitas, railing, tiang, dan kebutuhan proyek industri.', pipaHitam, 'Black Pipe', 'pipa'),
+  product('Pipa Galvanis / Pipa Air', 'Galvanized Water Pipe', 'Pipa galvanis berlapis zinc untuk kebutuhan air, utilitas, pagar, dan aplikasi dengan perlindungan korosi.', pipaGalvanis, 'Galvanis', 'pipa'),
+  product('Pipa Seamless', 'ASTM A53 / A106 / API 5L', 'Pipa seamless untuk kebutuhan tekanan, utilitas industri, distribusi, dan aplikasi teknis sesuai standar proyek.', pipaHitam, 'Seamless', 'pipa'),
+  product('Pipa Pancang ERW', 'ASTM A252', 'Pipa pancang ERW untuk pondasi, tiang, dan kebutuhan infrastruktur dengan spesifikasi proyek.', pipaHitam, 'Pancang', 'pipa'),
+  product('Pipa Kotak', 'Rectangular & Square Pipes', 'Pipa kotak dan rectangular untuk rangka, konstruksi ringan, kanopi, pagar, dan fabrikasi umum.', pipaKotak, 'Box Pipe', 'pipa'),
+  product('Besi Beton Polos & Ulir', 'Plain & Deformed Bars', 'Besi beton untuk tulangan struktur beton pada proyek bangunan, jalan, gudang, dan infrastruktur.', besiBeton, 'Rebar', 'beton'),
+  product('Besi AS / Round Bars', 'ST41, ST60, ST70, ST90', 'Besi as untuk machining, komponen teknik, shaft, dan kebutuhan fabrikasi presisi.', roundBars, 'Round Bar', 'beton'),
+  product('Square Bars / Vierkan', 'Square Steel Bars', 'Batang baja kotak untuk komponen teknik, rangka, pekerjaan bubut, dan fabrikasi umum.', squareBars, 'Vierkan', 'beton'),
+  product('Silver Steel / Tool Steel', 'Precision Steel Bars', 'Material baja teknik untuk tool, komponen mesin, shaft, dan pekerjaan industri presisi.', toolSteel, 'Tool Steel', 'beton'),
+  product('Besi Wiremesh', 'Steel Wiremesh Sheets', 'Wiremesh lembaran untuk penguatan lantai beton, dak, jalan, gudang, dan pekerjaan pengecoran.', wiremeshLembaran, 'Wiremesh', 'wiremesh'),
+  product('Heavy Welded Wire Mesh Roll', 'Wire Mesh Roll', 'Wiremesh roll untuk penguatan, pagar, pembatas area, dan kebutuhan pendukung proyek konstruksi.', wiremeshRoll, 'Mesh Roll', 'wiremesh'),
+  product('Bendrat', 'Tie Wire', 'Kawat bendrat untuk pengikat tulangan, pekerjaan beton, dan kebutuhan aksesoris lapangan.', bendrat, 'Tie Wire', 'wiremesh'),
+  product('Rangka Atap Baja Ringan', 'Galvalume Light Steel Frame', 'Rangka atap baja ringan galvalum untuk bangunan komersial, gudang, rumah tinggal, dan renovasi.', rangkaAtap, 'Baja Ringan', 'atap'),
+  product('Atap Gelombang Galvalum', 'Corrugated Galvalume Roofing', 'Atap gelombang galvalum untuk penutup atap gudang, pabrik, dan bangunan komersial.', atapGelombang, 'Roofing', 'atap'),
+  product('Spandek Galvalum', 'Galvalume Spandek Panels', 'Spandek galvalum untuk atap dan dinding bangunan dengan bobot ringan dan pemasangan efisien.', spandek, 'Spandek', 'atap'),
+  product('Besi Sheetpile', 'Type II, III, IV', 'Sheetpile baja untuk penahan tanah, proyek dermaga, sungai, basement, dan pekerjaan infrastruktur berat.', sheetpile, 'Sheetpile', 'infrastruktur', { special: true }),
+  product('Guardrail', 'Type A & B', 'Guardrail untuk pengaman jalan, proyek transportasi, pelindung tepi, dan kebutuhan keselamatan infrastruktur.', guardrail, 'Guardrail', 'infrastruktur')
 ];
 
 const productGroups = [
@@ -167,7 +200,7 @@ const catalogGroups = [
     eyebrow: 'Group 03',
     title: 'Plat Coated & Stainless',
     desc: 'Plat berlapis dan stainless untuk panel, finishing industri, utilitas, dan kebutuhan anti karat.',
-    image: produkPlatSpesialis,
+    image: platGalvanis,
     productNames: ['Plat Besi Putih', 'Plat Galvanil', 'Plat Galvanis', 'Plat Stainless 4 x 8']
   },
   {
@@ -185,7 +218,7 @@ const catalogGroups = [
     eyebrow: 'Group 01',
     title: 'Beam Struktural',
     desc: 'Profil beam untuk balok, kolom, gudang, pabrik, jembatan, dan konstruksi baja berat.',
-    image: hbeamWf,
+    image: wfBeam,
     productNames: ['WF / Wide Flange', 'H-Beam, I-Beam / INP']
   },
   {
@@ -194,7 +227,7 @@ const catalogGroups = [
     eyebrow: 'Group 02',
     title: 'Kanal & Siku',
     desc: 'Profil kanal dan siku untuk rangka, dudukan mesin, struktur pendukung, dan fabrikasi umum.',
-    image: besiKonstruksi,
+    image: kanalUnpCnp,
     productNames: ['Kanal UNP & CNP', 'Besi Siku']
   },
   {
@@ -203,7 +236,7 @@ const catalogGroups = [
     eyebrow: 'Group 01',
     title: 'Pipa Standar Konstruksi',
     desc: 'Pipa baja untuk struktur ringan, utilitas, railing, pagar, kanopi, dan kebutuhan lapangan.',
-    image: produkPipaBaja,
+    image: pipaHitam,
     productNames: ['Pipa Baja Hitam', 'Pipa Galvanis / Pipa Air', 'Pipa Kotak']
   },
   {
@@ -212,7 +245,7 @@ const catalogGroups = [
     eyebrow: 'Group 02',
     title: 'Pipa Proyek Industri',
     desc: 'Pipa untuk kebutuhan tekanan, pondasi, distribusi, dan spesifikasi teknis proyek.',
-    image: produkPipaBaja,
+    image: pipaHitam,
     productNames: ['Pipa Seamless', 'Pipa Pancang ERW']
   },
   {
@@ -221,7 +254,7 @@ const catalogGroups = [
     eyebrow: 'Group 01',
     title: 'Tulangan Beton',
     desc: 'Material tulangan untuk bangunan, jalan, gudang, dan pekerjaan infrastruktur beton.',
-    image: produkBesiBetonBatangan,
+    image: besiBeton,
     productNames: ['Besi Beton Polos & Ulir']
   },
   {
@@ -230,7 +263,7 @@ const catalogGroups = [
     eyebrow: 'Group 02',
     title: 'Batangan Teknik',
     desc: 'Batang baja untuk machining, shaft, tool, komponen teknik, dan fabrikasi presisi.',
-    image: produkBesiBetonBatangan,
+    image: squareBars,
     productNames: ['Besi AS / Round Bars', 'Square Bars / Vierkan', 'Silver Steel / Tool Steel']
   },
   {
@@ -239,7 +272,7 @@ const catalogGroups = [
     eyebrow: 'Group 01',
     title: 'Wiremesh Lembaran & Roll',
     desc: 'Wiremesh untuk penguatan lantai beton, dak, jalan, pagar, dan pembatas area.',
-    image: produkWiremesh,
+    image: wiremeshLembaran,
     productNames: ['Besi Wiremesh', 'Heavy Welded Wire Mesh Roll']
   },
   {
@@ -248,7 +281,7 @@ const catalogGroups = [
     eyebrow: 'Group 02',
     title: 'Aksesoris Beton',
     desc: 'Material pendukung lapangan untuk pengikatan tulangan dan pekerjaan pengecoran.',
-    image: produkWiremesh,
+    image: bendrat,
     productNames: ['Bendrat']
   },
   {
@@ -257,7 +290,7 @@ const catalogGroups = [
     eyebrow: 'Group 01',
     title: 'Rangka Atap',
     desc: 'Rangka baja ringan galvalum untuk bangunan komersial, gudang, rumah, dan renovasi.',
-    image: produkAtapGalvalum,
+    image: rangkaAtap,
     productNames: ['Rangka Atap Baja Ringan']
   },
   {
@@ -266,7 +299,7 @@ const catalogGroups = [
     eyebrow: 'Group 02',
     title: 'Panel Atap Galvalum',
     desc: 'Material penutup atap dan dinding dengan bobot ringan serta pemasangan efisien.',
-    image: produkAtapGalvalum,
+    image: atapGelombang,
     productNames: ['Atap Gelombang Galvalum', 'Spandek Galvalum']
   },
   {
@@ -275,7 +308,7 @@ const catalogGroups = [
     eyebrow: 'Group 01',
     title: 'Penahan Tanah',
     desc: 'Material untuk proyek dermaga, sungai, basement, dan pekerjaan infrastruktur berat.',
-    image: produkInfrastruktur,
+    image: sheetpile,
     productNames: ['Besi Sheetpile']
   },
   {
@@ -284,7 +317,7 @@ const catalogGroups = [
     eyebrow: 'Group 02',
     title: 'Pengaman Jalan',
     desc: 'Material keselamatan jalan dan proyek transportasi untuk pelindung tepi jalan.',
-    image: produkInfrastruktur,
+    image: guardrail,
     productNames: ['Guardrail']
   }
 ];
