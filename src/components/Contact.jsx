@@ -21,7 +21,7 @@ export function Contact() {
               <h3 className="text-sm font-bold text-ink">Kantor & gudang</h3>
               <address className="mt-3 text-sm not-italic leading-7 text-muted">Jl. Romokalisari No. 80 Blok E No. 01,<br />Romokalisari, Benowo, Surabaya, Jawa Timur.</address>
               <div className="mt-5 overflow-hidden rounded border border-line">
-                {showMap ? <iframe src={MAP_EMBED} title="Peta lokasi PT. Cahaya Mandiri Bajamas, Romokalisari, Surabaya" width="600" height="250" referrerPolicy="no-referrer-when-downgrade" allowFullScreen className="h-[250px] w-full bg-surface" /> : <img src="/images/warehouse-800.webp" alt="Kantor dan gudang CMB di Romokalisari, Surabaya" width="800" height="600" loading="lazy" decoding="async" className="h-[250px] w-full object-cover" />}
+                {showMap ? <iframe src={MAP_EMBED} title="Peta lokasi PT. Cahaya Mandiri Bajamas, Romokalisari, Surabaya" width="600" height="250" referrerPolicy="no-referrer-when-downgrade" allowFullScreen className="h-[250px] w-full bg-surface" /> : <img src="/images/warehouse-redacted-800.webp" alt="Kantor dan gudang CMB di Romokalisari, Surabaya" width="800" height="600" loading="lazy" decoding="async" className="h-[250px] w-full object-cover" />}
               </div>
               <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-3">
                 <ExternalLink href={MAPS_URL} className="inline-flex items-center gap-2 text-sm font-bold text-brand hover:text-brand-dark">Rute ke Gudang <ArrowUpRight size={16} aria-hidden="true" /></ExternalLink>

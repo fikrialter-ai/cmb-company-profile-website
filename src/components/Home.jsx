@@ -2,9 +2,9 @@ import { ArrowRight, ArrowUpRight, Building2, Check, Factory, PackageCheck, Stor
 import { SectionHeading } from './UI.jsx';
 import Products from './Products.jsx';
 
-const warehouse = '/images/warehouse-1920.webp';
-const warehouseMedium = '/images/warehouse-1280.webp';
-const warehouseSmall = '/images/warehouse-800.webp';
+const warehouse = '/images/warehouse-redacted-1920.webp';
+const warehouseMedium = '/images/warehouse-redacted-1280.webp';
+const warehouseSmall = '/images/warehouse-redacted-800.webp';
 
 function Hero() {
   return (
